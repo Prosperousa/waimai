@@ -1,0 +1,477 @@
+/*
+* @Author: Dell
+* @Date:   2018-08-09 09:45:28
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-09-15 15:35:58
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width:100%;
+	height: 3.15rem; 
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header .top{
+	width: 100%;
+	height: 2.7rem;
+	background: #ff5e00;
+}
+header .top .lasta{
+	width: 100%;
+	height: 0.95rem;
+	padding:0.24rem;
+}
+header .top .lasta .fh img{
+	width:0.36rem;
+	height: 0.51rem;
+	float: left;
+ }
+ header .top .lasta .fx{
+ 	width: 1.23rem;
+	height:0.51rem;
+	float: right;
+ }
+ header .top .lasta .fx .ss img{
+ 	width:0.48rem;
+	height:0.48rem;
+	float: left;
+ }
+ header .top .lasta .fx .fenxiang img{
+ 	width:0.48rem;
+	height: 0.48rem;
+	float: right;
+ }
+header .lastb .log img{
+	width:1.44rem;
+	height: 1.41rem; 
+	margin-left: 0.9rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+.lastb .nr{
+	width:4.89rem;
+	height: 1.7rem;
+	float: left;
+	margin-left: 0.24rem; 
+} 
+.pf{
+	width:4.85rem;
+	height: 0.4rem; 
+	float: right;
+}
+.pf h1{
+	font-size: 0.4rem;
+	color: #fff; 
+	font-weight:550;
+}
+.pf .position h3{
+	font-size:0.31rem;
+	color: #ffffff;
+	float: left;
+	text-align: center;
+	line-height: 0.31rem; 
+	font-weight: normal;
+	margin-left: 0.20rem;
+}
+.position-pic{
+	width: 0.32rem;
+	height: 0.33rem;
+	float:left;
+	 
+}
+.pf span{
+	font-size: 0.35rem;
+	color: #f4f4f4;
+	float: left;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+
+}
+.pf span:nth-child(2){
+	color: #fede5f;
+
+}
+.wz {
+	width: 4.85rem;
+	height: 0.28rem;
+	float:left;
+	margin-top: 0.1rem; 
+}
+.wz .pssj{
+	width: 0.6rem;
+	height: 0.28rem;
+	border: 1px solid #fff;
+	float: left;
+	border-radius: 0.28rem;
+	font-size: 0.09rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.28rem;
+}
+.wz p{
+	font-size: 0.09rem;
+	color: #fff;
+	text-align:left;
+	line-height: 0.28rem;
+}
+.wz h6{
+	float: right;
+	text-align: center;
+	line-height: 0.28rem;
+}
+.lb .shijian{
+	width:0.1rem;
+	height: 0.4rem;  
+	float: left;
+	margin-top: 0.03rem; 
+	background:blue;
+}
+.lb .shijian p{
+	font-size:0.24rem;
+	color:#4f4d4d;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.24rem;
+	float: left;
+}
+span{
+	margin-top: 0.1rem;
+}
+header .bottom{
+	width: 100%;
+	height: 0.45rem;
+	background:#fac011;
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.45rem; 
+}
+
+.daohang{
+	width: 100%;
+	height: 0.94rem;
+	background-color: #fff;
+	box-shadow: 0 0.01rem  0.05rem #888787;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 2.73rem;
+	left: 0;
+}
+.daohang .fl{
+	width: 2.22rem;
+	height: 100%;
+	color: #545454;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.32rem;
+}
+.daohang .fl a{
+	color: #545454;
+}
+.daohang .fl:nth-child(1) a{
+	color: #ff2a00;
+}
+.daohang .fl:nth-child(2):hover a{
+	color: #ff2a00;
+}
+.daohang .fl:nth-child(3):hover a{
+	color: #ff2a00;
+}
+nav{
+	width: 7.5rem;
+	height: calc(100%-465);
+	margin-top: 0.06rem;
+	position: fixed;
+	top: 3.67rem;
+	left: 0;
+}
+nav .list {
+	width: 2.14rem;
+	height:9.71rem; 
+	float: left;
+}
+nav .list ul li{
+	width: 2.13rem;
+	height:1.1rem;
+	background-color: #f7f7f7;
+	font-size: 0.28rem;
+	color: #545454;
+	text-align: left;
+	line-height: 1.1rem;
+	padding: 0.24rem;
+	float: left;
+}
+
+nav .list ul li:nth-child(1){
+	float: left;
+}
+nav .list ul li img{
+	width:0.24rem;
+	height: 0.29rem;
+	margin-left: 0.12rem;
+	margin-top: 0.07rem 
+}
+nav .content{
+	width: 5.36rem;
+	height: 8.5rem;
+	float: left;
+	overflow: scroll;
+}
+nav .content ul li{
+	width: 4.87rem;
+	height: 2.12rem;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+	background-color: #fff;
+	box-shadow: 0  0.02rem  0.09rem  0.03rem  #c2c1c1;
+}
+nav .content ul li .pic{
+	width: 1.42rem;
+	height: 1.65rem;
+	background-image: url('../img/dianpuxiangqing/t1.png');
+	background-size: 1.5rem 2.12rem; 
+	float: left;
+	margin-top: 0.25rem;
+}
+nav .content ul li .pic2{
+	width: 1.42rem;
+	height: 1.65rem;
+	background-image: url('../img/dianpuxiangqing/t2.png');
+	background-size: 1.5rem 2.12rem; 
+	float: left;
+	margin-top: 0.25rem;
+}
+nav .content ul li .pic3{
+	width: 1.42rem;
+	height: 1.65rem;
+	background-image: url('../img/dianpuxiangqing/t3.png');
+	background-size: 1.5rem 2.12rem; 
+	float: left;
+	margin-top: 0.25rem;
+}
+nav .content ul li .pic4{
+	width: 1.42rem;
+	height: 1.65rem;
+	background-image: url('../img/dianpuxiangqing/t4.png');
+	background-size: 1.5rem 2.12rem; 
+	float: left;
+	margin-top: 0.25rem;
+}
+nav .content ul li .wenzi{
+	width: 3.37rem;
+	height: 1.85rem;
+	margin-top: 0.15rem;
+	float: left;
+}
+nav .content ul li .wenzi h1{
+	font-size: 0.28rem;
+	font-weight: bold;
+}
+nav .content ul li .wenzi h1 a{
+	color: #545454;
+}
+nav .content ul li .wenzi h2{
+	font-size: 0.22rem;
+	font-weight:normal;
+	margin-top: 0.01rem;
+	color: #545454;
+}
+nav .content ul li .wenzi h3{
+	font-size: 0.20rem;
+	font-weight:normal;
+	margin-top: 0.02rem;
+	color: #545454;
+}
+nav .content ul li .wenzi .si{
+	height: 0.28rem;
+	margin-top: 0.02rem;
+}
+nav .content ul li .wenzi .si .zhe{
+	width: 0.8rem;
+	height: 0.24rem;
+	border: 0.01rem solid #ff2a00;
+	font-size: 0.18rem;
+	font-weight:lighter;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #ff2a00;
+	float: left;
+}
+nav .content ul li .wenzi .si h4{
+	font-size: 0.18rem;
+	font-weight: lighter;
+	color: #ff2a00;
+	float: left;
+	margin-left: 0.06rem;
+}
+nav .content ul li .wenzi .wu img:nth-of-type(2){
+	display: none;
+	width: 0.45rem;
+	height: 0.45rem;
+}
+nav .content ul li .wenzi .wu h6{
+	font-size: 18px;
+	float: right;
+	margin-right: 0.15rem;
+	margin-left: 0.15px;
+	line-height: 0.6rem;
+	display: none;
+	color: #ff2a00;
+}
+nav .content ul li .wenzi .wu h5{
+	font-size: 0.38rem;
+	color: #ff2a00;
+	font-weight: bolder;
+	float: left;
+	/* margin-top: 0.01rem; */
+}
+nav .content ul li .wenzi .wu img{
+	float: right;
+	width: 0.41rem;
+	height: 0.41rem;
+	margin-top: 0.08rem;
+	margin-right: 0.1rem;
+}
+.bottom{
+
+	width: 100%;
+	height: 1rem;
+	margin-top: 0.27rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}
+.bottom .pic{
+	width: 1.09rem;
+	height: 1.11rem;
+	position: absolute;
+	top: -0.3rem;
+	left: 0.21rem;
+	background-image: url('../img/dianpuxiangqing/gouwuche.png');
+	background-size: 1.09rem 1.11rem;
+	float: left;
+}
+.bottom .weixuan{
+	margin-left: 1.47rem;
+	float: left;
+}
+.bottom .weixuan h1{
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: #6b6b6b;
+}
+.bottom .qisong{
+	width: 2.05rem;
+	height: 0.6rem;
+	border-radius: 0.24rem;
+	background-color:#6b6b6b;
+	margin-left: 5.2rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+	margin-top: 0.1rem;
+}
+.bot{
+	display: none;
+	z-index: 3;
+}
+.bot .pic{
+	background-image: url('../img/jusigouwuche.png');
+}
+.bot .weixuan h1:nth-child(1){
+	font-size: 18px;
+	color: #ff2a00;
+}
+.bot .qisong{
+	background: #ff2a00;
+	color: #fff;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+}
+.mask .upper{
+	width: 5.48rem;
+	height: 5.61rem;
+	background: #fff;
+	margin-top: 3.5rem;
+	margin-left: 1rem;
+	border-radius: 0.6rem;
+	overflow: hidden;
+}
+.mask .upper .tu{
+	width: 100%;
+	height: 3.62rem;
+	border-radius: 0.6rem 0.6rem 0 0;
+	background-color: #fff;
+	background-image: url('../img/zhezhao.png');
+	background-size: 5.48rem 3.62rem;
+}
+ .mask .upper .tu p{
+	font-size:0.4rem;
+	 float: right;
+	 margin-right: 0.4rem;
+	 color: #fff;
+}
+.mask .upper .xia{
+	width: 100%;
+	height: 1.99rem;
+	border-radius: 0 0 0.6rem 0.6rem;
+}
+.mask .upper .xia p{
+	font-size: 0.28rem;
+	font-weight: bold;
+	margin-left: 0.32rem;
+	margin-top: 0.2rem;
+	color: #545454;
+}
+.mask .upper .xia h6{
+	font-size: 0.18rem;
+	color: #cecece;
+	margin-left: 0.32rem;
+	font-weight: normal;
+	margin-top: 0.04rem;
+}
+.mask .upper .xia h5{
+	font-size: 0.38rem;
+	font-weight: bold;
+	color: #ff2a00;
+	margin-left: 0.32rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.mask .upper .xia .q{
+	width: 1.56rem;
+	height: 0.56rem;
+	border-radius: 0.3rem;
+	background-color: #ff2a00;
+	font-size: 0.26rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 0.56rem;
+	float: right;
+	margin-right: 0.32rem;
+	margin-top: 0.2rem;
+}

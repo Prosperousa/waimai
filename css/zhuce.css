@@ -1,0 +1,288 @@
+/*
+* @Author: Dell
+* @Date:   2018-08-11 18:34:17
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-09-15 09:57:51
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width:100%;
+	height: 4.84rem;
+	margin: 0 auto;
+}
+header .zhuce {
+	width: 100%;
+	height: 0.61rem;
+	font-size:0.36rem;
+	text-align:right;
+	line-height: 1rem;
+	padding-right: 0.24rem; 
+}
+header .zhuce a{
+	color:#ff5900;
+}
+header .pic{
+	width: 100%rem;
+	height:3.52rem;
+}
+header .pic img{
+	width:2.4rem;
+	height: 2.32rem;
+	margin-top: 0.4rem;
+	margin-left: 2.51rem; 
+}
+.dl{
+	width:100%;
+	height: 1.32rem;
+	margin-left: 2rem;
+	margin-top: 0.1rem; 
+}
+.yd1{
+	width:0.19rem;
+	height:0.19rem;
+	border-radius: 50%;
+	background:#ffaf85;
+	float: left; 
+	margin: 0.1rem;
+}
+.dl span{
+	font-size:0.28rem;
+	color:#ff5800; 
+	float: left;
+	text-align: center;
+	line-height: 0.4rem;
+
+}
+.yd1:nth-child(2){
+	background:#fb8648; 
+}
+.yd1:nth-child(3){
+	background:#ff5800; 
+}
+.yd1:nth-child(4){
+	background:#ff5800; 
+}
+.yd1:nth-child(5){
+	background:#fb8648; 
+}
+.yd1:nth-child(6){
+	background:#ffaf85; 
+}
+main{
+	width:100%;
+	height: 5.76rem;
+}
+.wk{
+	width:4.55rem;
+	height:0.27rem;
+	background:#f7d754;
+	border-radius:0.5rem 0.5rem 0 0rem;
+	margin-top:0.5rem;
+	margin-left: 1.6rem;  
+}
+.dlk{
+	width:5.38rem;
+	height: 6.19rem;
+	background: #f9f9f9;
+	border-radius: 0.5rem;
+	margin-left: 1.2rem;
+	padding: 0.24rem;
+	position: relative; 
+}
+.dlk .yd{
+	width:0.19rem;
+	height:0.19rem;
+	border-radius: 50%;
+	background:#ff5800;
+	float: left; 
+	margin-left: 0.3rem;
+	margin-top:0.24rem; 
+
+}
+.dlk .yd:nth-child(2){
+	background:#c8c5c5; 
+}
+.dlk .yh{
+	width:4.9rem;
+	height: 1rem;
+	margin-top: 0.8rem;
+	border: 1px solid #cecece;
+	border-radius:0.6rem; 
+}
+.yh .user{
+	width:1rem;
+	height: 0.27rem;
+	font-size:0.18rem;
+	color:#cecece;
+	background: #f9f9f9;
+	position: absolute;
+	top:0.84rem;
+	left:0.83rem;
+	text-align: center;     
+}
+.yh-pic{
+	width:0.44rem;
+	height: 0.44rem;
+	position: absolute;
+	margin-top: 0.27rem;
+	margin-left: 0.24rem; 
+}
+.yhm{
+	width: 3.5rem;
+	height:0.8rem;
+	font-size:0.2rem;
+	line-height: 0.8rem;
+	position: absolute;
+	left: 1rem;
+	top:1.16rem;
+	outline: none; 
+	border:0 ;
+	color: #cecece;
+	background-color:#f9f9f9;   
+}
+input::-webkit-input-placeholder{
+	color: #d9d9d9;  
+}
+.yzm{
+	width:3.2rem;
+	height: 1rem;
+	margin-top: 1.3rem;
+	border: 1px solid #cecece;
+	border-radius:0.6rem;
+}
+.yzm .user{
+	width:1rem;
+	height: 0.27rem;
+	font-size:0.18rem;
+	color:#cecece;
+	background: #f9f9f9;
+	position: absolute;
+	top:2.18rem;
+	left:0.83rem;     
+	text-align: center;
+}
+.yz{
+	width: 2.1rem;
+	height:0.8rem;
+	font-size:0.2rem;
+	line-height: 0.8rem;
+	position: absolute;
+	left: 1rem;
+	top:2.5rem;
+	outline: none; 
+	border:0 ;
+	color: #cecece;
+	background-color:#f9f9f9;   
+}
+
+.mima{
+	width:4.9rem;
+	height: 1.15rem;
+	margin-top: 0.4rem;
+	border: 1px solid #cecece;
+	border-radius:0.6rem; 
+}
+.mm{
+	width:1.33rem;
+	height: 0.27rem;
+	font-size:0.18rem;
+	color:#cecece;
+	background: #f9f9f9;
+	position: absolute;
+	top:3.6rem;
+	left:0.83rem;
+	text-align: center;     
+}
+.yzm-pic{
+	width:0.56rem;
+	height: 0.45rem;
+	position: absolute;
+	margin-top: 0.35rem;
+	margin-left: 0.24rem;
+	float: left;
+}
+.yzk{
+	width:1.5rem;
+	height: 0.8rem;
+	background:#f31b41;
+	border-radius: 0.2rem;
+	font-size:0.2rem;
+	color:#fff; 
+	text-align: center;
+	line-height: 0.8rem;
+	position: absolute;
+	top: 2.45rem;
+	left: 3.6rem;
+}
+.daojishi{
+	width: 1.5rem;
+	height: 0.8rem;
+	background-color: #f31b41;
+	border-radius: 0.2rem;
+	font-size: 0.2rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 0.8rem;
+	position: absolute;
+	top: 2.45rem;
+	left:3.6rem;
+	z-index: 2;
+	display: none;
+}
+.ture{
+	width: 2.04rem;
+	height: 0.48rem;
+	text-align: center;
+	font-size: 0.38rem;
+	line-height: 0.48rem;
+	color: #fff;
+	background-color: #ebebeb;
+	border-radius: 0.3rem;
+	border: 0.01rem solid #fff;
+	position: absolute;
+	bottom: -0.2rem;
+	left: 0rem;
+	right: 0;
+	margin: 0 auto;
+}
+.mm-pic{
+	width:0.42rem;
+	height: 0.46rem;
+	position: absolute;
+	margin-top: 0.35rem;
+	margin-left: 0.24rem; 
+}
+.m{
+	width: 2rem;
+	height:0.8rem;
+	font-size:0.2rem;
+	line-height: 0.8rem;
+	position: absolute;
+	left: 1rem;
+	top:4rem;
+	outline: none; 
+	border:0 ;
+	color: #cecece;
+	background-color:#f9f9f9;   
+}
+input::-webkit-input-placeholder{
+	color: #d9d9d9;  
+}
+.wc img{
+	width:3rem;
+	height: 0.9rem; 
+	margin-left:1rem;
+	margin-top: 0.8rem;
+}

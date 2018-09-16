@@ -1,0 +1,335 @@
+/*
+* @Author: Dell
+* @Date:   2018-08-14 18:42:32
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-08-15 11:35:16
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width:100%;
+	height: 1.01rem; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+header .top{
+	width: 100%;
+	height: 1.01em;
+	background: #ff5e00;
+}
+header .top .lasta{
+	width: 100%;
+	height: 0.95rem;
+	padding:0.24rem;
+}
+header .top .dp img{
+	width: 4rem;
+	height: 0.5rem;
+	float: left;
+	margin-left: 1rem;
+	margin-top: 0.1rem;
+}
+header .top .lasta .fh img{
+	width:0.36rem;
+	height: 0.51rem;
+	float: left;
+ }
+ header .top .lasta .fx{
+ 	width: 1.23rem;
+	height:0.51rem;
+	float: right;
+ }
+ header .top .lasta .fx .ss img{
+ 	width:0.48rem;
+	height:0.48rem;
+	float: left;
+ }
+ header .top .lasta .fx .fenxiang img{
+ 	width:0.48rem;
+	height: 0.48rem;
+	float: right;
+ }
+ .banner{
+ 	width: 100%;
+ 	height: 2.92rem;
+ 	margin-top: 1.26rem;
+ }
+ .container{
+ 	width: 7.02rem;
+ 	margin: 0 auto;
+ }
+ .container .banner-t img{
+ 	width: 7.02rem;
+ 	height:2.69rem;
+ 	border-radius: 0.5rem;
+ 	background: red;
+ 	position: relative; 
+ }
+ .banner-t .yd{
+ 	width:1.7rem;
+ 	height: 0.32rem;
+ 	position: absolute; 
+ 	top: 3.5rem;
+ 	left:5.6rem; 
+ }
+ .banner-t .yd ul li{
+ 	width:0.22rem;
+ 	height: 0.22rem;
+ 	border-radius: 50%;
+ 	background: #fff;
+ 	float: left;
+ 	margin-left: 0.2rem;
+ }
+ .banner-t .yd ul li:nth-child(1){
+ 	background: #ff7600;
+ }
+ main{
+ 	width: 100%;
+ }
+ main .main-left{
+ 	width:4.71rem;
+ 	height: 1.26rem;
+ 	float: left; 
+ }
+ main .main-right{
+ 	width: 2.3rem;
+ 	height: 1.26rem;
+ 	float: right;
+ }
+ main .main-right .qisong{
+ 	width: 1.8rem;
+	height: 0.62rem;
+	margin-top: 0.68 rem;
+	border-radius: 0.24rem; 
+	background:#ff6e00;
+	font-size:0.28rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.62rem; 
+ }
+.main-left h2{
+ 	font-size:0.32rem;
+ 	line-height: 0.32rem; 
+ }
+ .main-left p{
+ 	font-size:0.18rem;
+ 	color:#dddcdc;
+ 	line-height:0.6rem;  
+ }
+.main-left h3{
+	font-size: 0.28rem;
+	line-height: 0.3rem;
+}
+.main-nr p{
+	font-size: 0.18rem;
+	color:#303030;
+	text-align: left;
+	line-height: 0.3rem;
+}
+.main-gk{
+	width: 100%;
+	height:0.59rem;
+	margin-top: 0.25rem;
+	border-top:0.01rem solid #dddcdc; 
+	border-bottom:0.01rem solid #dddcdc;
+}
+.main-gk h2{
+	font-size: 0.28rem;
+	color:#000000; 
+	line-height: 0.58rem;
+}
+.main-pj{
+	width: 100%;
+	height: 4.65rem;
+}
+.main-pj li{
+	width: 100%;
+	height:1.25rem;
+	margin-top: 0.2rem; 
+}
+.pj-tx{
+	width: 1.05rem;
+	height: 1.25rem;
+	float: left;
+}
+.pj-tx img{
+	width:1rem;
+	height: 1.02rem;
+	margin-top: 0.12rem; 
+}
+.pj-yh{
+	width:3.81rem;
+	height: 0.3rem;
+	float: left; 
+}
+.pj-yh h6{
+	font-size: 0.28rem;
+	color: #000;
+	text-align:left;
+	line-height: 0.4rem; 
+	float: left;
+}
+.pj-yh span{
+	font-size: 0.28rem;
+	color:#fede5f;
+	text-align:left;
+	line-height: 0.4rem;
+	float: left;
+	padding-left: 0.2rem; 
+}
+.pj-yh{
+	font-size: 0.28rem;
+	color: #f86d6d;
+}
+.pj-wz img{
+	float: left;
+	position: absolute;
+	top:8.68rem;
+	left: 1.3rem;
+	float: left;
+}
+.pj-wz p{
+	font-size: 0.18rem;
+	color:#a7a6a6;
+	text-align:center;
+	float: left;
+	line-height: 0.45rem; 
+}
+.dz p{
+	font-size: 0.18rem;
+	color:#a7a6a6;
+	text-align:right;
+	line-height: 0.11rem;
+	padding-top: 0.08rem;
+}
+span{
+	font-size: 0.18rem;
+	color:#a7a6a6;
+	text-align:right;
+}
+.main-jz{
+	width: 100%;
+	height:1.04rem;	 
+}
+.main-jz h2{
+	font-size:0.32rem;
+	color:#a7a6a6;
+	text-align: center;
+	line-height: 0.32rem;
+}
+.main-tj{
+	width: 100%;
+	height:0.59rem;
+	margin-top: 0.07rem;
+	border-top:0.01rem solid #dddcdc; 
+	border-bottom:0.01rem solid #dddcdc;
+}
+.main-tj h2{
+	font-size: 0.28rem;
+	color:#000000; 
+	line-height: 0.58rem;
+}
+.tuijian{
+	width: 100%;
+	height: 7.71rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 0.24rem;
+}
+.main-tj ul li{
+	width: 3.15rem;
+	height: 3.54rem;
+	flex-direction:column;
+	border-radius:0.3rem;
+	background:#fff;
+	box-shadow:0 0.01rem 0.2rem 0.01rem #fce2b1;
+}
+.main-tj ul li img{
+	width: 3.14rem;
+	height: 2.54rem;
+}
+.main-tj ul li h2{
+	font-size: 0.32rem;
+	color:#000000; 
+	text-align: center;
+	line-height: 0.01rem;
+	padding-bottom: 0.2rem;
+}
+.main-tj ul li p{
+	font-size: 0.15rem;
+	color:#a7a6a6;
+	text-align:center;
+	line-height: 0.2rem;
+	padding-bottom: 0.09rem;
+}
+.main-tj h3{
+	font-size: 0.32rem;
+	color:#fc1616;
+	text-align: center;
+	line-height: 0.2rem;
+}
+.main-tj span{
+	font-size: 0.28rem;
+	color: #fc1616;
+	text-align: center;
+}
+.main-bd{
+	width: 100%;
+	height: 1rem;
+}
+.bottom{
+
+	width: 100%;
+	height: 1rem;
+	margin-top: 0.27rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #443b3c;
+}
+.bottom .pic{
+	width: 1.09rem;
+	height: 1.11rem;
+	position: absolute;
+	top: -0.3rem;
+	left: 0.21rem;
+	background-image: url('../img/dianpuxiangqing/gouwuche.png');
+	background-size: 1.09rem 1.11rem;
+	float: left;
+}
+.bottom .weixuan{
+	margin-left: 1.47rem;
+	float: left;
+}
+.bottom .weixuan h1{
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: #6b6b6b;
+	padding-top: 0.1rem;
+}
+.bottom .qisong{
+	width: 1.86rem;
+	height: 1rem;
+	background-color:#5d5151;
+	margin-left: 5.7rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+	color: #6b6b6b;
+}

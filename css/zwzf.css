@@ -1,0 +1,102 @@
+/*
+* @Author: Dell
+* @Date:   2018-08-15 16:25:13
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-08-16 10:26:32
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	height: 2.86rem;
+	width: 100%;
+	background-color: #ff5f00;
+	border-radius:0 0 1rem 1rem;
+	position: relative;
+}
+header .top{
+	height: 0.85rem;
+}
+header .top .center img{
+	width:0.33rem;
+	height: 0.45rem;
+	margin-left: 0.24rem;
+	position: absolute;
+	top: 0.24rem;
+
+}
+header .dizhi {
+	width: 7rem;
+	height: 2.07rem;
+	margin-left: 0.25rem;
+}
+header .dizhi .yi{
+	height: 0.68rem;
+}
+header .dizhi .yi h6{
+	font-size: 0.42rem;
+	color: #fff;
+	line-height: 0.68rem;	
+	float: left;
+}
+header .dizhi .yi p{
+	font-size: 0.32rem;
+	color: #fff;
+	float: right;
+	text-align: right;
+	line-height: 0.8rem;
+}
+header .dizhi .yi a{
+	color: #fff;
+}
+header .time{
+	width: 7rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 0.27rem;
+	box-shadow:0 0.01rem 0.2rem 0.01rem #fce2b1;
+	position: absolute;
+	top:2rem;
+	left: 0.24rem; 
+}
+header .time img{
+	width:1rem;
+	height:1rem;
+	padding: 0.24rem;
+	float: left;
+}
+header .time p{
+	font-size: 0.32rem;
+	color:#8a8a8a; 
+	float: left;
+	line-height: 1rem;
+	font-weight: bold;
+}
+header .time span{
+	font-size: 0.32rem;
+	color:#ff5f40;
+	float: right;
+	line-height: 1rem;
+	font-weight: bold;
+}
+header .time pre{
+	font-size: 0.18rem;
+	color:#8a8a8a;
+	float: right;
+	padding-right: 0.24rem; 
+}
+footer img{
+	width: 100%;
+	height: 9.45rem;
+	margin-top: 0.91rem;
+}

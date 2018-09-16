@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no" >
+	<script src="js/dl.js"></script>
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_793301_ssczj2jw8zn.css">
+	<link rel="stylesheet" href="css/sjcc.css">
+	<link rel="stylesheet" href="css/dl.css">
+</head>
+<body>
+	<header>
+		<div class="zhuce">
+			<a href="zhuce.html">注册</a></div>
+		<div class="pic">
+			<img src="img/zhuce/touxiang.png" alt="">
+		</div>
+		<div class="dl">
+		<div class="yd1"></div>
+		<div class="yd1"></div>
+		<div class="yd1"></div>
+		<span>欢迎登录</span>
+		<div class="yd1"></div>
+		<div class="yd1"></div>
+		<div class="yd1"></div>
+		</div>
+	</header>
+	<main>
+		<div class="wk">
+		</div>
+		<div class="dlk">
+			<div class="yd">	</div>
+			<div class="yd">	</div>
+			<div class="yh">
+			<div class="user">UserName</div>
+			<img src="img/zhuce/yonghu.png" alt="" class="yh-pic">
+			<p class="cuowu1">请输入正确的账号</p>
+			<input type="text" class="yhm" placeholder="请在此输入您的用户名">
+			</div>
+			<div class="mima">
+			<div class="mm">Password</div>
+			<img src="img/zhuce/mima.png" alt="" class="mm-pic">
+			<p class="cuowu2">请输入正确的密码</p>
+			<input type="password" class="m" placeholder="请在此输入您的密码">
+			</div>
+			<div class="wj">
+				<img src="img/zhuce/wangjimima.png" alt="">	<a href="">忘记密码</a>
+			</div>
+			<a href="index.html"><div class="ture">
+	    	<i class="iconfont icon-dui"></i>
+	    </div></a>
+
+		</div>
+	</main>
+	<footer>
+		<div class="top">
+			<div class="dl dl-top">
+		<div class="yd1"></div>
+		<div class="yd1"></div>
+		<div class="yd1"></div>
+		<span>欢迎使用第三方登录</span>
+		<div class="yd1"></div>
+		<div class="yd1"></div>
+		<div class="yd1"></div>
+		</div>
+		</div>
+		<div class="bottom">
+		<img src="img/zhuce/weixin.png" alt="">
+		<img src="img/zhuce/qq.png" alt="">
+		<img src="img/zhuce/zhifubao.png" alt="">
+		</div>
+	</footer>
+</body>
+</html>
+<script>
+    let phone=document.querySelector(".yhm");
+    let password=document.querySelector(".m");
+    let ture=document.querySelector(".ture");
+    password.onblur=function () {
+        if (phone.value=="123456789" && password.value=="123456"){
+            ture.style.backgroundColor="#ff5900";
+        }
+    }
+    ture.onclick=function () {
+        if (phone.value=="123456789" && password.value=="123456"){
+            window.open("index.html");
+		}
+    }
+</script>

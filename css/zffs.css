@@ -1,0 +1,183 @@
+/*
+* @Author: Dell
+* @Date:   2018-08-15 15:52:32
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-09-15 16:14:33
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	height: 3.81rem;
+	width: 100%;
+	background-color: #ff5f00;
+	border-radius:0 0 1rem 1rem;
+}
+header .top{
+	height: 0.85rem;
+}
+header .top .left{
+	width: 1.05rem;
+	height: 0.85rem;
+	background-image: url('../img/images2/images/fanhui.png');
+	background-repeat: no-repeat;
+	background-size: 1.05rem 0.85rem;
+}
+header .top .center img{
+	width:0.33rem;
+	height: 0.45rem;
+	margin-left: 0.24rem;
+	position: absolute;
+	top: 0.24rem;
+
+}
+header .dizhi {
+	width: 7rem;
+	height: 2.07rem;
+	margin-left: 0.25rem;
+}
+header .dizhi .yi{
+	height: 0.68rem;
+}
+header .dizhi .yi h6{
+	font-size: 0.28rem;
+	color: #fff;
+	line-height: 0.68rem;	
+	float: left;
+}
+header .dizhi .yi .jia{
+	width: 0.53rem;
+	height: 0.22rem;
+	border: 0.01rem solid #fff;
+	font-size: 0.18rem;
+	line-height: 0.22rem;
+	text-align: center;
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 0.22rem;
+	color: #fff;
+}
+
+header .dizhi h5{
+	font-size: 0.32rem;
+	margin-top: 0.16rem;
+	color: #fff;
+	line-height: 0.5rem;
+}
+header .time{
+	width: 7rem;
+	height: 2.12rem;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 0.27rem;
+	box-shadow:0 0.01rem 0.2rem 0.01rem #fce2b1;
+}
+header .time .top{
+	width: 6.58rem;
+	height: 1.2rem;
+	border-bottom: 0.01rem dashed #aca9a9;
+	margin: 0 auto;
+}
+header .time .top .le{
+	width: 3.70rem;
+	padding-top: 0.22rem;
+	float: left;
+}
+header .time .top .le p{
+	font-size: 0.34rem;
+	font-weight: bold;
+	color: #545454;
+}
+header .time .top .le h6{
+	font-size: 0.2rem;
+	color: #ff5f00;
+}
+header .time .top .you{
+	width: 2.88rem;
+	font-size: 0.28rem;
+	color: #ff5f00;
+	line-height: 1.2rem;
+	float: left;
+	text-align: right;
+}
+header .time .bottom p{
+	font-size: 0.34rem;
+	color: #545454;
+	font-weight: bold;
+	float: left;
+	line-height: 0.92rem;
+	margin-left: 0.21rem;
+}
+header .time .bottom h5{
+	font-size: 0.28rem;
+	color: #ff5f00;
+	font-weight: bold;
+	float: right;
+	line-height: 0.92rem;
+	margin-right: 0.21rem;
+}
+.list{
+	height: 7.42rem;
+	width: 7rem;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow:0 0.01rem 0.2rem 0.01rem #fce2b1;
+	margin-top: 1.7rem;
+}
+.list ul li:nth-child(1){
+	height: 1.02rem;
+	width: 6.58rem;
+	margin: 0 auto;
+	font-size: 0.34rem;
+	font-weight: bold;
+	color: #545454;
+	text-align: center;
+	line-height: 1.02rem;
+	border: 0;
+}
+.list ul li{
+	height: 1.27rem;
+	width: 6.58rem;
+	margin: 0 auto;
+	border-top: 0.01rem dashed #aca9a9;
+}
+.list ul li img{
+	height: 0.4em;
+	width: 0.41rem;
+	float: left;
+	margin-top: 0.43rem;
+}
+.list ul li .wc{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: right;
+	margin-right: 0.07rem;
+}
+.list ul li p{
+	font-size: 0.28rem;
+	color: #545454;
+	float: left;
+	line-height: 1.27rem;
+	padding-left: 0.1rem;
+}
+.list ul li i{
+	float: right;
+	color: #eeeeee;
+	font-size: 0.4rem;
+	line-height: 1.27rem;
+}
+.list ul li:nth-child(5) i{
+	color: #2bd5a5;
+}
+.list ul li i:hover{
+	color: #2bd5a5;
+}

@@ -1,0 +1,161 @@
+/*
+* @Author: Dell
+* @Date:   2018-08-12 13:33:48
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-09-15 17:04:55
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 2.74rem;
+	background: #ff2a00;
+	padding:0 0.24rem;
+}
+header .top{
+	width: 100%;
+	height: 0.58rem;	
+}
+header .top img:nth-child(2){
+	margin-left: 1.1rem;
+}
+header .bottom{
+	margin-top: 0.6rem;
+	float: left;
+}
+header .bottom .last{
+	width:2rem;
+	height: 1.03rem;
+	float: right;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+}
+header .bottom .last h6{
+	font-size: 0.36rem;
+	color: #fff;
+	font-weight: normal;
+	line-height: 0.3rem; 
+}
+.last img{
+	width: 0.26rem;
+	height: 0.33rem;
+}
+.last p{
+	font-size:0.15rem;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height:1.3rem;
+}
+.bottom-y a{
+	font-size: 1rem;
+	color: #fff;
+	float: right;
+	line-height:2.5rem; 
+}
+main{
+	width: 100%;
+	height: 9.33rem;
+}
+.daohang{
+	height: 1.74rem;
+	width: 100%;
+	border-bottom:0.03rem solid #f3f3f3;
+	overflow: hidden;
+} 
+.daohang ul li{
+	width: 2.33rem;
+	height: 1.14rem;
+	margin-top: 0.38rem;
+	margin-left: 0.25rem;
+	float: left;
+}
+.daohang ul li:nth-child(2){
+	margin-left: 0;
+	border-left: 0.01rem solid #d5d5d5;
+}
+.daohang ul li:nth-child(3){
+	margin-left: 0;
+	border-left: 0.01rem solid #d5d5d5;
+}
+.daohang ul li p{
+	font-size: 0.38rem;
+	color: #ef8089;
+	text-align: center;
+}
+.daohang ul li h6{
+	font-size: 0.24rem;
+	color: #545454;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.daohang ul li:nth-child(2) p{
+	color: #f0ae47;
+}
+.daohang ul li:nth-child(3) p{
+	color: #35bcc4;
+}
+.content{
+	width: 100%;
+	height: 7.28rem;
+}
+.content ul li{
+	height: 1.02rem;
+	width: 7rem;
+	margin-left: 0.25rem;
+	border-bottom: 0.02rem solid #f3f3f3;
+	background-image: url('../img/images6/images/17.png');
+	background-position: right;
+	background-size: 0.34rem 1rem;
+	background-repeat: no-repeat;
+}
+.content ul li img{
+	width: 0.81rem;
+	height: 0.79rem;
+	float: left;
+	margin-top: 0.14rem;
+}
+.content ul li p{
+	font-size: 0.31rem;
+	color: #545454;
+	line-height: 1.02rem;
+	float: left;
+	font-weight: bold;
+	margin-left: 0.1rem;
+}
+.content ul li h6{
+	font-size: 0.2rem;
+	color: #b6b6b6;
+	line-height: 1.02rem;
+	float: right;
+	margin-right: 0.44rem;
+}
+footer{
+	width: 7.5rem;
+	height: 1.2rem;
+	background: #fff;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0rem;
+}
+.dibu img{
+	width:0.45rem;
+	height:0.75rem; 
+	margin-right: 0.4rem;
+}
+.dibu{
+	width: 7.5rem;
+	height: 1rem;
+	margin: 0 auto;
+	padding-left: 0.78rem;
+}
