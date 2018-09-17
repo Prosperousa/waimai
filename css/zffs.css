@@ -2,7 +2,7 @@
 * @Author: Dell
 * @Date:   2018-08-15 15:52:32
 * @Last Modified by:   Dell
-* @Last Modified time: 2018-09-15 16:14:33
+* @Last Modified time: 2018-09-17 11:07:15
 */
 *{
 	padding: 0;
@@ -176,8 +176,8 @@ header .time .bottom h5{
 	line-height: 1.27rem;
 }
 .list ul li:nth-child(5) i{
-	color: #2bd5a5;
+	color: #ff5900;
 }
 .list ul li i:hover{
-	color: #2bd5a5;
+	color:#ff5900;
 }
