@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>登录</title>
 	<meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no" >
-	<script src="js/dl.js"></script>
+	<!-- <script src="js/dl.js"></script> -->
 	<link rel="stylesheet" href="https://at.alicdn.com/t/font_793301_ssczj2jw8zn.css">
 	<link rel="stylesheet" href="css/sjcc.css">
 	<link rel="stylesheet" href="css/dl.css">
@@ -47,9 +47,9 @@
 			<div class="wj">
 				<img src="img/zhuce/wangjimima.png" alt="">	<a href="">忘记密码</a>
 			</div>
-			<a href="index.html"><div class="ture">
+			<div class="ture">
 	    	<i class="iconfont icon-dui"></i>
-	    </div></a>
+	    </div>
 
 		</div>
 	</main>
@@ -77,13 +77,15 @@
     let phone=document.querySelector(".yhm");
     let password=document.querySelector(".m");
     let ture=document.querySelector(".ture");
-    password.onblur=function () {
-        if (phone.value=="123456789" && password.value=="123456"){
-            ture.style.backgroundColor="#ff5900";
+    console.log(phone,password,ture);
+      password.onblur=function () {
+        if (phone.value=="111" && password.value=="123"){
+            ture.style.background="#ff5900";
+
         }
-    }
+    } 
     ture.onclick=function () {
-        if (phone.value=="123456789" && password.value=="123456"){
+        if (phone.value=="111" && password.value=="123"){
             window.open("index.html");
 		}
     }

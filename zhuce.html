@@ -50,9 +50,9 @@
 			<img src="img/zhuce/mima.png" alt="" class="mm-pic">
 			<input type="text" class="m" placeholder="请在此输入您的密码">
 			</div>
-			<a href="dl.html"><div class="ture">
+			<div class="ture">
 	    	<i class="iconfont icon-dui"></i>
-	    </div></a>
+	    </div>
 				
 			</div>
 			</div>
@@ -67,7 +67,7 @@
 	let span=document.querySelector(".daojishi span");
 	let phone=document.querySelector(".yhm");
 	let yanzheng=document.querySelector(".yz");
-	let password=document.querySelector(".mm-pic");
+	let password=document.querySelector(".m");
 	console.log(phone,yanzheng,password);
 	yanzhengma.onclick=function () {
 		daojishi.style.display="block";
@@ -87,8 +87,14 @@
     }
     password.onblur=function () {
         if (phone.value!=="" && password.value!=="" && yanzheng.value!==""){
-            ture.style.backgroundColor="#f6df80";
+            ture.style.backgroundColor="#ff5900";
+
         }
+    } 
+    ture.onclick=function () {
+        if (phone.value!=="" && password.value!=="" && yanzheng.value!=""){
+            window.open("dl.html");
+		}
     }
 
 	
