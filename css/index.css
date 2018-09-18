@@ -2,7 +2,7 @@
 * @Author: Dell
 * @Date:   2018-08-08 11:09:23
 * @Last Modified by:   Dell
-* @Last Modified time: 2018-09-18 16:53:15
+* @Last Modified time: 2018-09-18 18:39:15
 */
 *{
 	padding: 0;
@@ -242,7 +242,6 @@ nav ul li img{
 .lb ul li .z img{
 	width:1.9rem;
 	height: 2.11rem;
-	background: blue;
 	margin-top:0.19rem;
 	float: left; 
 }

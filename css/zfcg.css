@@ -2,7 +2,7 @@
 * @Author: Dell
 * @Date:   2018-08-14 18:42:32
 * @Last Modified by:   Dell
-* @Last Modified time: 2018-09-18 17:41:01
+* @Last Modified time: 2018-09-18 18:47:12
 */
 *{
 	padding: 0;
@@ -152,7 +152,7 @@ header .top .lasta .fh img{
 	line-height: 0.06rem;
 }
 .main-tj span{
-	font-size: 0.28rem;
+	font-size: 0.18rem;
 	color: #fc1616;
 	text-align: center;
 }

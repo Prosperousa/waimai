@@ -2,7 +2,7 @@
 * @Author: 我的文档
 * @Date:   2018-08-14 16:43:07
 * @Last Modified by:   Dell
-* @Last Modified time: 2018-09-15 16:09:51
+* @Last Modified time: 2018-09-18 18:44:22
 */
 *{
 	margin: 0;
@@ -85,7 +85,7 @@ header .time{
 header .time .top{
 	width: 6.58rem;
 	height: 1.2rem;
-	border-bottom: 0.01rem dashed #aca9a9;
+	border-bottom: 0.02rem dashed #aca9a9;
 	margin: 0 auto;
 }
 header .time .top .le{
