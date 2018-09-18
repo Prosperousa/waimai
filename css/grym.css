@@ -2,7 +2,7 @@
 * @Author: Dell
 * @Date:   2018-08-12 13:33:48
 * @Last Modified by:   Dell
-* @Last Modified time: 2018-09-15 17:04:55
+* @Last Modified time: 2018-09-18 17:30:58
 */
 *{
 	padding: 0;
@@ -151,11 +151,12 @@ footer{
 .dibu img{
 	width:0.45rem;
 	height:0.75rem; 
-	margin-right: 0.4rem;
 }
 .dibu{
 	width: 7.5rem;
+	padding-top: 0.2rem;
 	height: 1rem;
-	margin: 0 auto;
-	padding-left: 0.78rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }

@@ -2,7 +2,7 @@
 * @Author: Dell
 * @Date:   2018-08-14 18:42:32
 * @Last Modified by:   Dell
-* @Last Modified time: 2018-09-15 17:03:25
+* @Last Modified time: 2018-09-18 17:29:51
 */
 *{
 	padding: 0;
@@ -22,8 +22,6 @@ header{
 	position: fixed;
 	top: 0;
 	left: 0;
-	position: fixed;
-	top: 0;
 	z-index: 999;
 }
 header .top{
@@ -80,7 +78,7 @@ header .top .lasta .fh img{
 	width: 100%;
 	height:0.99rem; 
 	margin-top: 4rem;
-	margin-left: 0.28rem;
+	
 }
 .right{
 	width: 3.85rem;
@@ -119,13 +117,11 @@ main .sj ul li{
 	height: 2.89rem;
 
 }
-.list{
-	width: 100%;
-}
 .lb{
 	width: 100%;
 	height: 7.68rem;
 	margin-top: 0.3rem;
+	overflow: hidden;
 }
 .lb ul li{
 	width: 100%;
@@ -141,7 +137,7 @@ main .sj ul li{
 	margin-top:0.19rem;
 }
 .lb ul li .y{
-	width:4.85rem;
+	/* width:4.85rem; */
 	height: 2.53rem; 
 	float: right;
 }
@@ -192,12 +188,14 @@ main .sj ul li{
 	width: 1.08rem;
 	height: 0.35rem;
 	float:right; 
+	margin-right: 0.28rem;
+
 }
 .wz img{
 	width: 1.47rem;
 	height: 0.46rem;
 	float: left;
-	padding-right: 0.24rem
+	/* padding-right: 0.24rem */
 
 }
 .wz h6{
@@ -226,11 +224,12 @@ footer{
 .dibu img{
 	width:0.45rem;
 	height:0.75rem; 
-	margin-right: 0.4rem;
 }
 .dibu{
-	width:7.5rem;
+	width: 7.5rem;
+	padding-top: 0.2rem;
 	height: 1rem;
-	margin: 0 auto;
-	padding-left: 0.78rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
