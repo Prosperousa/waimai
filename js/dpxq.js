@@ -2,7 +2,7 @@
 * @Author: 我的文档
 * @Date:   2018-09-13 13:04:33
 * @Last Modified by:   Dell
-* @Last Modified time: 2018-09-15 15:06:16
+* @Last Modified time: 2018-09-29 15:42:17
 */
 window.onload=function(){
 let jia=document.querySelector("nav .content ul li:nth-child(1) .wenzi .wu img");
@@ -15,7 +15,7 @@ let heji=document.querySelector(".bot .weixuan h1 span");
 let zong=document.querySelector(".mask .upper .xia h5 span");
 let guan=document.querySelector(".mask .upper .tu p");
 let count=0;
-console.log(jia);
+console.log(zong);
 jia.onclick=function () {
     count++;
     num.innerHTML=count;
